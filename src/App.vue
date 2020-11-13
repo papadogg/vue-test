@@ -44,11 +44,6 @@
 
 export default {
   name: 'App',
-
-  components: {
-
-  },
-
   data: () => ({
     name: '',
     age: 0,
@@ -149,7 +144,7 @@ export default {
 </script>
 
 <style>
-  ul{
+  ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -161,33 +156,32 @@ export default {
     z-index: 0;
   }
 
-  ul li{
+  ul li {
     display: block;
     clear: both;
     padding: 20px;
     border-radius: 30px;
     margin-bottom: 2px;
     font-family: Helvetica, Arial, sans-serif;
-    /* float: right; */
     text-align: center;
   }
 
-  .him{
+  .him {
     background: #eee;
     float: left;
   }
 
-  .me{
+  .me {
     float: right;
     background: #0084ff;
     color: #fff;
   }
 
-  .him + .me{
+  .him + .me {
     border-bottom-right-radius: 5px;
   }
 
-  .me + .me{
+  .me + .me {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
   }
